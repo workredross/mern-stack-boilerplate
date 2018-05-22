@@ -1,0 +1,27 @@
+{
+  "name": "mern-boiler-plate",
+  "version": "1.0.0",
+  "description": "MongoDB Express.JS React.JS Node.JS Boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "install-server": "npm install",
+    "install-client": "npm install --prefix client",
+    "client": "npm start --prefix client",
+    "server": "nodemon index.js",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Kanishk Srivastava",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "concurrently": "^3.5.1",
+    "cors": "^2.8.4",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3",
+    "mongoose": "^5.1.2",
+    "morgan": "^1.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.4"
+  }
+}
