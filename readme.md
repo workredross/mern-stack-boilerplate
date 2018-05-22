@@ -7,6 +7,9 @@ You have to have these installed in your computer
     * https://nodejs.org/en/
 ### Running the environment
 
+* GET INTO THE FOLDER    
+    * `cd mern-stack-boilerplate`
+
 **The local environment will not run, if dependencies are not insatlled**
 
 * DEPENDENCIES
